@@ -64,14 +64,13 @@ p{
   text-decoration:upperline;
   font-size:2em;
 }
-.header{
-  background-image:url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
-  background-Position:0 0;
-  background-repeat:no repeat;
-  background-size:cover;
-  height:650px;
-  padding:50px;
-  position:relative;
+.header {
+  background-image: url('../img/infraestructura.jpg');
+  background-position: center top top; 
+  background-size: cover;
+  height: 650px;
+  padding: 50px;
+  position: relative;
 }
 .container{
   width:1200px;
@@ -81,6 +80,16 @@ p{
   paragraph-margin:10px auto;
 }
 
+.h1_about{
+  position: relative;
+  text-transform: none;
+  font-size: 2.5rem;
+  top: 1rem;
+  background-color:rgb(25,33,41);
+  color: #fff;
+  height: -5rem;
+}
+
 .quote{
   font-size:2.5em;
   position:absolute;
@@ -88,6 +97,7 @@ p{
   position-bottom:15vh
 }
 .dark-background{
+  margin-top: -3rem;
   background-color:rgb(25,33,41);
   color:white;
 }
@@ -95,6 +105,7 @@ p{
   font-size:2em;
   font-weight:100;
   text-align:center;
+  color: #eee;
   margin:20px;
 }
 .link-btn{
@@ -109,8 +120,6 @@ p{
   width:150px;
   margin:40px auto 0 auto;
   padding:14px 20px 14px 20px;
-  border:20px;
-  color:black;
   style:solid;
   opacity:0.2
 }
@@ -124,7 +133,13 @@ p{
   margin:50px 5% 0 5%;
   padding:20px;
   width:40%;
-  img:125px
+}
+.quote{
+  color: #fff;
+}
+
+h1 i {
+  color: #fff; 
 }
 hr{
   margin:20px auto 30px auto;
@@ -158,6 +173,7 @@ hr{
   text-decoration:none;
 }
 .col{
+
   float:left;
 }
 .col-3{
@@ -200,11 +216,8 @@ input,select{
   padding:3px 3px 15px 3px;
   width:100%
 }
-Reserve Your Slot!{
-  border:1px solid black;
-  color:black;
-  background-color:white;
-  padding:9px 9px;
-  margin:15px 0px 0px 0px;
-  
+.nav-bar-item{
+  text-decoration: none;
 }
+
+
